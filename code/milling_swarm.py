@@ -246,7 +246,7 @@ class MyApp(ShowBase):
         # Repeat the same steps for each actuator
         for i in range(self.n_locust):
             # Create virtual object with animation
-            self.locustActors.append(Actor("locust/Locust", {"walk01": "locust/Locust-tripod_walk"}))
+            self.locustActors.append(Actor("actuator_locust/Locust", {"walk01": "actuator_locust/Locust-tripod_walk"}))
             self.locustActors[-1].loop("walk01")
             self.locustActors[-1].setScale(self.locust_scale, self.locust_scale, self.locust_scale)
             # Randomly place around center

@@ -1,0 +1,7 @@
+Output format for each of N frames and n virtual animals.
+xR/yR	:	position of the real animal in the virtual world
+xV1/yV1 :	position of the first virtual animal in the virtual world 
+[frame1, xR, yR, xV1, yV1, .... ,xVn, yVn]
+[frame2, xR, yR, xV1, yV1, .... ,xVn, yVn]
+[                  . . .                 ]
+[frameN, xR, yR, xV1, yV1, .... ,xVn, yVn]
